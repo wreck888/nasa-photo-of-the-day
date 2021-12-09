@@ -8,9 +8,9 @@ function App() {
 
   return (
     <div className="App">
-      <p>
+      <h1>
         Photo of the Day! <span role="img" aria-label='go!'>🚀</span>!
-      </p>
+      </h1>
       <Nasa />
       <Textbox />
     </div>

@@ -3,24 +3,24 @@ import axios from 'axios';
 
 
 
-function Explaination() {
-    const [explaination, setExplaination] = useState('');
+function Explanation() {
+    const [explanation, setExplaination] = useState('');
     
   
     useEffect(() => {
       axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
         .then(response => {
         //   console.log(response.data)
-          setExplaination(response.data.explaination)
+          setExplaination(response.data.explanation)
         })
     }, [])
   
   
     return (
-      <div className="Explaination">
-        <p>{explaination}</p>
+      <div className="Explanation">
+        <p>{explanation}</p>
       </div>
     );
   }
 
-  export default Explaination;
+  export default Explanation;
