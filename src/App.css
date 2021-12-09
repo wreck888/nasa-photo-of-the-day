@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+    border: 1px solid rgb(210, 210, 210);
+    box-shadow: 0px 1px 6px -2px rgb(128, 127, 127);
+    border-radius: 8px;
+    margin: 16px;
+    padding: 16px 8px 12px 16px;
+  
+  
 }
 
 .App-logo {
@@ -36,3 +43,36 @@
     transform: rotate(360deg);
   }
 }
+
+.Nasa{
+  border: 1px solid rgb(210, 210, 210);
+  box-shadow: 0px 1px 6px -2px rgb(128, 127, 127);
+  border-radius: 8px;
+  margin: 16px;
+  padding: 16px 8px 12px 16px;
+  background-color: lightgrey;
+}
+
+.Nasa img {
+  border: 10px solid black;
+  
+}
+
+.App p {
+  border: 1px solid rgb(210, 210, 210);
+  box-shadow: 0px 1px 6px -2px rgb(128, 127, 127);
+  border-radius: 8px;
+  margin: 16px;
+  padding: 16px 8px 12px 16px;
+  background-color: lightgrey;
+}
+
+.Textbox {
+  border: 1px solid rgb(210, 210, 210);
+  box-shadow: 0px 1px 6px -2px rgb(128, 127, 127);
+  border-radius: 8px;
+  margin: 16px;
+  padding: 16px 8px 12px 16px;
+  background-color: lightgrey;
+}
+

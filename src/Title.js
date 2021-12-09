@@ -3,24 +3,24 @@ import axios from 'axios';
 
 
 
-function Nasa() {
-    const [nasaData, setNasaData] = useState([]);
-  
+function Title() {
+    const [title, setTitle] = useState([]);
+    
   
     useEffect(() => {
       axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
         .then(response => {
-          console.log(response.data)
-          setNasaData(response.data.url)
+        //   console.log(response.data)
+          setTitle(response.data.title)
         })
     }, [])
   
   
     return (
-      <div className="Nasa">
-        <img src = {nasaData}></img>
+      <div className="Title">
+        <h2>{title}</h2>
       </div>
     );
   }
 
-  export default Nasa;
+  export default Title;

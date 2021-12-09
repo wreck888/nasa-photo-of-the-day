@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./App.css";
-import axios from 'axios';
 import Nasa from './Nasa';
+import Textbox from "./Textbox";
 
 function App() {
   
@@ -12,6 +12,7 @@ function App() {
         Photo of the Day! <span role="img" aria-label='go!'>🚀</span>!
       </p>
       <Nasa />
+      <Textbox />
     </div>
     
   );
