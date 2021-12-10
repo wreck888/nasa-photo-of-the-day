@@ -12,10 +12,10 @@ box-shadow: 0px 1px 6px -2px rgb(128, 127, 127);
 border-radius: 8px;
 margin: 16px;
 padding: 16px 8px 12px 16px;
-background-color: ${props => props.theme.primaryColor};
+background-color: #f3f3f3;
+font-family: 'Space Mono', monospace;
 
 `
-
 
 function Textbox() {
     

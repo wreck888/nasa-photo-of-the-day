@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
     border: 1px solid rgb(210, 210, 210);
     box-shadow: 0px 1px 6px -2px rgb(128, 127, 127);
@@ -7,8 +7,10 @@
     padding: 16px 8px 12px 16px;
   
   
+} */
+body {
+  background-color: #07004D;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
